@@ -67,8 +67,8 @@ export default function HomePage() {
 
     return (
         <div className="h-screen w-full bg-black flex flex-col">
-            <div className="absolute top-0 left-0 right-0 z-10 p-4 bg-gradient-to-b from-black/55 to-transparent">
-                <h1 className="text-white text-3xl font-bold">Doomscroller</h1>
+            <div className="absolute top-0 left-0 right-0 z-20 p-4 bg-gradient-to-b from-black/55 to-transparent">
+                <h1 className="text-white text-3xl font-bold ">Doomscroller</h1>
                 <p className="text-white/70 text-sm">Beta 1.0</p>
             </div>
             {/* Toolbar */}
