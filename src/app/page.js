@@ -7,7 +7,10 @@ import ArticleCard from "./components/ArticleCard";
 import QuestionCard from "./components/QuestionCard";
 import Toolbar from "./components/Toolbar";
 export default function HomePage() {
-    const URL = process.env.SERVER_URL || "http://localhost:8000";
+
+ 
+    const URL = process.env.NEXT_PUBLIC_SERVER_URL;
+    console.log("server URL (client):", URL);
     // Now instead of using images , we will get text data from an API
     // const [images, setImages] = useState(Array.from({ length: 10 }));
     const colors = [
